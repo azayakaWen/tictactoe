@@ -1,0 +1,56 @@
+@font-face {
+  font-family: pixelFont;
+  src: url(/DotGothic16/DotGothic16-Regular.ttf);
+}
+
+body {
+  font-family: pixelFont;
+  background-color: antiquewhite;
+  color: rgb(23, 83, 92);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#player-container {
+  margin-bottom: 20px;
+}
+
+#player {
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid rgb(23, 83, 92);
+  width: 200px;
+  margin: auto;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 350px;
+  width: 350px;
+  margin: auto;
+}
+
+.blocks {
+  border: none 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 83, 92);
+  color: antiquewhite;
+  font-size: 30px;
+}
